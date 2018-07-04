@@ -15,7 +15,7 @@ function save(){
     link.innerHTML = 'download image';
 	link.addEventListener('click', function(ev) {		
     link.href = canvas[0].toDataURL();
-    link.download = "mypainting.png";
+    link.download = "mySignature.png";
 	}, false);
 
 	document.body.appendChild(link);
