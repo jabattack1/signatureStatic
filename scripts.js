@@ -2,8 +2,13 @@
 
 $(document).ready(function() {
 	$("#test").jqScribble();
+	var canvas = $('#test');
+	var ctx = canvas[0].getContext("2d");
+	ctx.beginPath();
+	ctx.rect(0, 0, canvas[0].width, canvas[0].height);
+	ctx.fillStyle = "#C9F259";
+	ctx.fill();
 });
-
 
 
 

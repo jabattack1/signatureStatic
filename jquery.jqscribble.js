@@ -205,6 +205,12 @@ function BasicCanvasSave(imageData){window.open(imageData,'jqScribble Image');}
             context.fillStyle = settings.backgroundColor;
             context.fillRect(0, 0, width, height);
             this.blank = true;
+                var canvas = $('#test');
+                var ctx = canvas[0].getContext('2d');
+                ctx.beginPath();
+                ctx.rect(0, 0, canvas[0].width, canvas[0].height);
+                ctx.fillStyle = "#C9F259";
+                ctx.fill();
             return this;
         },
 
