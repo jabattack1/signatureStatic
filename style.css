@@ -5,18 +5,33 @@ html, body {
 html {
 	display: table;
     margin: auto;
+    background-color:black;
 }
 
 body {
     display: table-cell;
     vertical-align: middle;
   	background-repeat: no-repeat;
+  	background-color:white;
+  	width:1050px;
 }
 
 .links{
 	position:relative;
+	/*display: inline-block;*/
+	margin: 0 auto;
 	width:750px;
 	height:50px;
+	/*background-color:red;*/
+}
+
+#modelContainer{
+	position:relative;
+	/*display: inline-block;*/
+	margin: 0 auto;
+	/*padding-top:200px;*/
+	width:750px;
+	/*height:50px;*/
 	/*background-color:red;*/
 }
 
@@ -29,6 +44,7 @@ body {
 	padding-left:20px;
 	padding-right:20px;
 	border-radius:20px;
+	width:708px;
 }
 
 #test{
@@ -116,7 +132,7 @@ body {
     filter: invert(100%);
     width:120px;
     /*margin-top:-500px;*/
-    margin-left:10px;
+    margin-left:12px;
     margin-top:10px;
     /*background-color:red;*/
     z-index:10;
@@ -130,8 +146,8 @@ body {
 	font-size: 20px
 	background-color:red;
 	z-index:10;
-	width:120px;
-	margin-left:660px;
+	width:90px;
+	right:0px;
 	margin-top:35px;
 }
 
@@ -147,6 +163,32 @@ body {
 	display: inline; 
 	float: right;
 }
+
+#rights {
+	position: relative;
+	margin: 0 auto;
+	margin-top:-58px;
+  font-family: arial;
+  color: #000000;
+  /*background-color: red;*/
+  height: 17px; 
+  width: 750px;
+  /*border-style: solid;*/
+    /*background-color:rgba(0,0,0,0.5);*/
+    /*border-radius: 5px 5px 5px 5px;*/
+}
+
+#copyright {
+  font-family: arial;
+  margin-top: 10px;
+  font-size: 10px;
+  /*width:200px;*/
+  /*padding: 0px;*/
+  /*margin-left: 15px;*/
+  position: absolute;
+  color:black;
+}
+
 
 
 
