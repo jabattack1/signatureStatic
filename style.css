@@ -12,8 +12,19 @@ body {
     display: table-cell;
     vertical-align: middle;
   	background-repeat: no-repeat;
-  	background-color:white;
-  	width:850px;
+  	background-color:black;
+  	width:1250px;
+}
+
+#modelBack{
+	/*display: inline-block;*/
+	margin: 0 auto;
+	position:relative;
+	background-color:white;
+	width:1250px;
+	padding-top:25px;
+	padding-bottom:25px;
+	/*height:550px;*/
 }
 
 .links{
@@ -37,6 +48,7 @@ body {
 
 #testBack{
 	background-color:#14022B;
+	/*display: inline-block;*/
 	position: relative;
 	margin: 0 auto;
 	padding-top:60px;
