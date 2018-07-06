@@ -67,6 +67,12 @@ body {
 	text-align:center;
 }
 
+#heading{
+	font-family:arial;
+	font-size:17px;
+
+}
+
 #mainLogo{
 	display: block;
     margin: 0 auto;
