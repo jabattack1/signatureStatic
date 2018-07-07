@@ -27,6 +27,14 @@ function save(){
 	$('#file').get(0).click();
 }
 
+function white(){
+	var canvas = $('#test');
+	var ctx = canvas[0].getContext("2d");
+	ctx.beginPath();
+	ctx.rect(0, 0, canvas[0].width, canvas[0].height);
+	ctx.fillStyle = "white";
+	ctx.fill();
+}
 
 
 function addImage(){
