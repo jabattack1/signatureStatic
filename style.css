@@ -51,11 +51,11 @@ body {
 	/*display: inline-block;*/
 	position: relative;
 	margin: 0 auto;
-	padding-top:70px;
-	padding-bottom:80px;
-	padding-left:40px;
-	padding-right:40px;
-	border-radius:40px;
+	padding-top:60px;
+	padding-bottom:70px;
+	padding-left:30px;
+	padding-right:30px;
+	border-radius:20px;
 	width:1008px;
 }
 
@@ -139,7 +139,7 @@ body {
 
 #fillWhite{
 	position:absolute;
-	margin-left:43%;
+	margin-left:45%;
 	/*margin-right:30%;*/
 	margin-top:-70px;
 	/*margin-left:150px;*/
