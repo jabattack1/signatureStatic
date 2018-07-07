@@ -34,7 +34,8 @@ body {
 	width:600px;
 	font-family: Futura;
 	font-size:14.5px;
-	padding-bottom:30px;
+	/*padding-top:-50px;*/
+	margin-top:-40px;
 	text-align:center;
 }
 
@@ -231,7 +232,7 @@ span{
 #rights {
 	position: relative;
 	margin: 0 auto;
-	margin-top:-58px;
+	margin-top:40px;
   font-family: Futura;
   color: #000000;
   /*background-color: red;*/
